@@ -60,7 +60,7 @@ public class Bank {
         return a.getSum();
         
     }
-    public class Account {
+    private class Account {
         private double sum;
         public Account() {
             this.sum = 0;
